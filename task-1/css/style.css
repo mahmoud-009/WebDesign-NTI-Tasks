@@ -1,0 +1,54 @@
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    background: url(../images/bg-animated.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    word-spacing: 50px;
+}
+h2{
+    text-transform: capitalize;
+    color:black;
+    font-size: 30px;
+    -webkit-text-stroke: 1.2px   #ff0077;    
+}
+h3{
+    text-transform: capitalize;
+    color:black;
+    font-size: 30px;
+    -webkit-text-stroke: 1.2px   #59b800;  
+}
+p{
+    column-count: 3;
+    column-rule: 5px solid #ff0077;
+    column-gap: 50px;
+    text-align: center;
+}
+hr{
+    width: 600px;
+    height: 3px;
+    background-color: #ff0055;
+}
+
+h4{
+    width: 80%;
+    text-align: center;
+    border: 8px dashed  #ff0055;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 30px;
+    font-family: 'Pacifico', cursive;
+    font-size: 17px;
+}
+
+h5{
+    background-color: pink;
+    height: 50px;
+    margin: 40px 0px 0px 0px ;
+    text-align: right;
+    padding-right: 30px;
+}   

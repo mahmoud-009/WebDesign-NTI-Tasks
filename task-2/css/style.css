@@ -1,0 +1,147 @@
+body{
+margin: 2px 2px 0 2px  ;
+background-color: #d4d4d6;
+}
+ /* Start header */
+nav{
+    background-color: #4f4c45;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 2px 2px 0px #ffa603;
+}
+.logo{
+    position:absolute;
+    left: 0;
+    padding-left: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-right: 1px solid white;
+    margin-left: 0;
+    margin: 10px -4px;
+    font-size: 20px;
+}
+.menu a:hover{
+    background-color: #ffa603;
+}
+.menu{
+    margin-right: 15px;
+}
+.picture1{
+    background-image: url(../images/slider.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+}
+.side-menu{
+    position: fixed;
+    top: 125px;
+}
+.side-menu1 , .side-menu2, .side-menu3 , .side-menu4{
+    width: 120px;
+    height: 40px;
+    font-size: 30px;
+    padding: 5px 50px ;
+    margin: 0px 10px 10px -170px;
+    border-radius: 9px;
+    text-align: center;  
+    transition: all .8s ease-in-out ;
+}
+.side-menu1{
+    background-color: #4cb050
+}
+.side-menu2{
+    background-color: #2196f3;  
+}
+.side-menu3{
+    background-color: #f54337;
+}
+.side-menu4{
+    background-color: #00fffb;
+}
+.side-menu1:hover , .side-menu2:hover, .side-menu3:hover , .side-menu4:hover{
+    margin-left: -5px;
+}
+.side-menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ /* ENd header */
+
+
+/* Start 3 boxs */
+.container{
+    background-color: #d1d1d1;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-color: #fef6e1;
+    margin: 30px 10px;
+    width: 30%;
+    height: 300px;
+}   
+.title1 , .title2 , .title3{
+    text-align: center;
+    font-size: 40px;
+}
+.title1, .title2 , .title3{
+    padding: 20px 50px;
+    color: white;
+}
+.title1{
+    background-color: #fe0000;
+    margin: 0;
+}
+.title2{
+    background-color:#9a9901;
+    margin: 0;
+}
+.title3{
+    background-color: #01009a;
+    margin: 0;
+}
+.box p{
+    padding: 20px 10px  ;
+}
+/* End 3 boxs */
+
+/* Start Map and Pharagraph */
+map{
+    float: left;
+}
+.explanation {
+    background-color: #555555;
+    float: right;
+    padding: 10px 103px 115px;
+    width: 60%;
+    margin: 0;
+}
+.explanation p{
+    color: white;
+}
+/* ENd Map and Pharagraph */
+
+/* Start Footer */
+footer{
+    background-color: gray;
+    height: 50px;
+    clear: both;
+    margin: 0;
+}
+.footer-text{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+/* End Footer */

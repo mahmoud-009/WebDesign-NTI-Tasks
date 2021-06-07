@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js-1</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <form class="col-5 mt-5">
+            <div class="mb-3">
+                <label for="" class="form-label">Name</label>
+                <input id="yourName" type="text" class="form-control" placeholder="Ex. Mahmoud Farahat"/>
+                <span id="message1" class="text-danger form-text"></span>
+            </div>
+            <div class="mb-3 col">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input id="yourEmail" type="email" class="form-control" id="exampleInputEmail1"
+                    aria-describedby="emailHelp" placeholder="Ex. MahmoudFarahat@gmail.com" />
+
+                <span id="message2" class="text-danger form-text"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input id="yourPassword" type="password" class="form-control" id="exampleInputPassword1" placeholder=
+                "Dont use easy words" />
+                <span id="message3" class="text-danger form-text"></span>
+            </div>
+
+            <label>Please Chose Your color</label>
+            <input type="color" />
+            <br />
+            <br />
+        </form>
+        <button id="btn-submit" type="submit" class="btn btn-primary">
+            Submit
+        </button>
+        <button type="reset" class="btn btn-danger">Clear</button>
+    </div>
+    <script src="js/myscript.js"></script>
+</body>
+
+</html>
